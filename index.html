@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Language 中英日韓語言教學｜線上小班＆一對一</title>
+<meta name="description" content="中文、英文、日文、韓文線上課程。Zoom 小班與一對一，零基礎也可以，每堂課錄影保留一個月。11–12 月韓文團體班可插班，早鳥優惠至 12/15。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#FFF7EC; --paper:#FFFFFF; --ink:#1E2440; --muted:#5D6380;
+  --coral:#FF5E3A; --coral-d:#E2421F; --sun:#FFC83D; --mint:#2BB7A3; --sky:#4C7DFF; --sakura:#FF7FA8;
+  --line:#06C755; --radius:22px; --shadow:0 18px 40px -18px rgba(30,36,64,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Noto Sans TC",system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3,.display{font-family:"Zen Maru Gothic","Noto Sans TC",sans-serif;font-weight:900;line-height:1.25}
+.eyebrow{display:inline-block;font-weight:700;font-size:.85rem;letter-spacing:.12em;color:var(--coral);margin-bottom:10px}
+section{padding:88px 0}
+.sec-title{font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:14px}
+.sec-sub{color:var(--muted);max-width:620px;margin-bottom:44px}
+.center{text-align:center}.center .sec-sub{margin-left:auto;margin-right:auto}
+
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;border-radius:999px;padding:14px 26px;transition:transform .15s,box-shadow .15s,background .15s;cursor:pointer;border:0;font-size:1rem}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--coral);color:#fff;box-shadow:0 10px 24px -10px var(--coral)}
+.btn-primary:hover{background:var(--coral-d)}
+.btn-line{background:var(--line);color:#fff;box-shadow:0 10px 24px -10px var(--line)}
+.btn-ghost{background:#fff;color:var(--ink);border:2px solid var(--ink)}
+
+header{position:sticky;top:0;z-index:50;background:rgba(255,247,236,.88);backdrop-filter:blur(10px);border-bottom:1px solid rgba(30,36,64,.07)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.05rem;white-space:nowrap}
+.logo-mark{display:grid;grid-template-columns:1fr 1fr;width:38px;height:38px;border-radius:10px;overflow:hidden;font-size:.7rem;font-weight:900;color:#fff;flex:none}
+.logo-mark span{display:grid;place-items:center}
+.nav-links{display:flex;gap:26px;font-weight:500;font-size:.95rem}
+.nav-links a:hover{color:var(--coral)}
+.nav .btn{padding:10px 20px;font-size:.92rem;white-space:nowrap}
+@media(max-width:860px){.nav-links{display:none}}
+
+.hero{padding:64px 0 90px;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border-radius:999px;padding:7px 16px 7px 8px;font-size:.88rem;font-weight:700;box-shadow:var(--shadow);margin-bottom:22px}
+.badge b{background:var(--sun);border-radius:999px;padding:2px 10px;font-size:.78rem}
+.hero h1{font-size:clamp(2.3rem,6vw,4rem);margin-bottom:20px}
+.hero h1 .hl{position:relative;white-space:nowrap;z-index:0}
+.hero h1 .hl::after{content:"";position:absolute;left:-4px;right:-4px;bottom:6px;height:16px;background:var(--sun);z-index:-1;border-radius:6px;opacity:.85}
+.hero p.lead{font-size:1.12rem;color:var(--muted);margin-bottom:30px;max-width:520px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:34px}
+.trust{display:flex;flex-wrap:wrap;gap:22px;font-size:.92rem;color:var(--muted)}
+.trust span{display:flex;align-items:center;gap:6px}
+.trust i{font-style:normal;color:var(--mint);font-weight:900}
+.bubbles{position:relative;height:440px}
+.bubble{position:absolute;border-radius:28px;padding:22px 24px;color:#fff;box-shadow:var(--shadow);animation:float 6s ease-in-out infinite}
+.bubble .big{font-family:"Zen Maru Gothic",sans-serif;font-size:2.4rem;font-weight:900;line-height:1}
+.bubble small{display:block;margin-top:6px;font-weight:700;opacity:.92}
+.b1{background:var(--coral);top:10px;left:8%;transform:rotate(-6deg)}
+.b2{background:var(--sky);top:40px;right:2%;animation-delay:1s;transform:rotate(5deg)}
+.b3{background:var(--sakura);bottom:110px;left:0;animation-delay:2s;transform:rotate(4deg)}
+.b4{background:var(--mint);bottom:40px;right:10%;animation-delay:3s;transform:rotate(-4deg)}
+.b-center{position:absolute;inset:0;margin:auto;width:190px;height:190px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;text-align:center;font-weight:900;font-size:1.05rem;line-height:1.4;box-shadow:var(--shadow)}
+.b-center em{font-style:normal;color:var(--sun);font-size:1.5rem;display:block}
+@keyframes float{0%,100%{translate:0 0}50%{translate:0 -12px}}
+@media(max-width:860px){.hero-grid{grid-template-columns:1fr}.bubbles{height:360px;max-width:420px;margin:0 auto;width:100%}.bubble .big{font-size:1.9rem}.b-center{width:150px;height:150px;font-size:.92rem}}
+
+.promo{background:var(--ink);color:#fff;padding:18px 0}
+.promo .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;justify-content:center;font-weight:700;text-align:center}
+.promo b{color:var(--sun)}
+
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.feat{background:#fff;border-radius:var(--radius);padding:28px 22px;box-shadow:var(--shadow)}
+.feat .ico{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-size:1.6rem;margin-bottom:16px}
+.feat h3{font-size:1.15rem;margin-bottom:6px}
+.feat p{color:var(--muted);font-size:.95rem}
+@media(max-width:900px){.features{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.features{grid-template-columns:1fr}}
+
+#courses{background:#fff}
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px}
+.tab{border:2px solid var(--ink);background:#fff;color:var(--ink);border-radius:999px;padding:10px 20px;font-weight:700;font-family:inherit;font-size:.98rem;cursor:pointer;display:flex;align-items:center;gap:8px}
+.tab .dot{width:10px;height:10px;border-radius:50%}
+.tab.active{background:var(--ink);color:#fff}
+.tab .new{background:var(--sakura);color:#fff;font-size:.7rem;padding:1px 7px;border-radius:999px}
+.panel{display:none;animation:fade .35s ease}
+.panel.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.panel-head{display:grid;grid-template-columns:1.3fr 1fr;gap:34px;align-items:start;margin-bottom:30px}
+.panel-head h3{font-size:1.9rem;margin-bottom:10px}
+.panel-head p{color:var(--muted)}
+.info-card{border-radius:var(--radius);padding:24px;color:#fff}
+.info-card ul{list-style:none;display:grid;gap:8px}
+.info-card li{display:flex;gap:10px}
+.info-card li::before{content:"✓";font-weight:900}
+.levels{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.level{background:var(--cream);border-radius:18px;padding:18px 14px;text-align:center;position:relative}
+.level .step{font-size:.75rem;font-weight:700;color:var(--muted)}
+.level h4{font-family:"Zen Maru Gothic",sans-serif;font-size:1.2rem;margin:4px 0}
+.level p{font-size:.85rem;color:var(--muted)}
+.level:not(:last-child)::after{content:"→";position:absolute;right:-12px;top:50%;translate:0 -50%;color:var(--mint);font-weight:900;z-index:1}
+.note{margin-top:18px;font-size:.92rem;color:var(--muted);background:var(--cream);border-radius:14px;padding:14px 18px}
+.teachers-inline{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.chip{display:inline-flex;align-items:center;gap:8px;background:var(--cream);border-radius:999px;padding:6px 14px 6px 6px;font-weight:700;font-size:.92rem}
+.chip .av{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:.85rem}
+@media(max-width:860px){.panel-head{grid-template-columns:1fr}.levels{grid-template-columns:1fr 1fr}.level::after{display:none}}
+
+.jp-hero{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+.jp-card{background:#FFF0F5;border-radius:18px;padding:20px}
+.jp-card .k{font-size:1.6rem}
+.jp-card h4{margin:6px 0 4px;font-size:1.05rem}
+.jp-card p{font-size:.9rem;color:var(--muted)}
+@media(max-width:700px){.jp-hero{grid-template-columns:1fr}}
+
+.sched-wrap{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.sched-scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:640px}
+th,td{padding:16px 18px;text-align:left;border-bottom:1px solid #F0E7DA;font-size:.96rem;vertical-align:top}
+th{background:var(--ink);color:#fff;font-weight:700}
+td .lang{display:inline-block;font-size:.75rem;font-weight:700;color:#fff;border-radius:6px;padding:2px 8px;margin-right:8px}
+td small.sub{color:var(--muted);font-size:.8rem}
+.status{font-size:.8rem;font-weight:700;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.st-open{background:#E2F7F3;color:#178A79}
+.st-flex{background:#FFF3D1;color:#A06B00}
+.slots{display:flex;flex-wrap:wrap;gap:8px}
+.slot{background:#E2F7F3;color:#14695C;border-radius:10px;padding:6px 12px;font-size:.9rem;font-weight:700;white-space:nowrap}
+.slot.two{background:#FFE6DF;color:#B8371A;white-space:normal}
+.slot em{display:block;font-style:normal;font-weight:500;font-size:.78rem;opacity:.85}
+.sched-foot{padding:16px 20px;font-size:.9rem;color:var(--muted);background:#FFFBF4}
+@media(max-width:700px){
+  table,thead,tbody,tr,td{display:block;min-width:0}
+  thead{display:none}
+  tr{padding:16px 18px;border-bottom:1px solid #F0E7DA}
+  td{border:0;padding:4px 0}
+}
+
+.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+.price{background:#fff;border-radius:var(--radius);padding:32px 26px;box-shadow:var(--shadow);display:flex;flex-direction:column;position:relative}
+.price.hot{background:var(--ink);color:#fff;transform:scale(1.03)}
+.price .tag{position:absolute;top:-14px;left:26px;background:var(--sun);color:var(--ink);font-weight:900;font-size:.82rem;padding:5px 14px;border-radius:999px}
+.price h3{font-size:1.3rem;margin-bottom:4px}
+.price .for{font-size:.9rem;opacity:.75;margin-bottom:18px}
+.amount{font-family:"Zen Maru Gothic",sans-serif;font-size:2.6rem;font-weight:900;line-height:1}
+.amount small{font-size:1rem;font-weight:700}
+.was{text-decoration:line-through;opacity:.6;font-size:.95rem;margin-top:6px}
+.per{font-size:.9rem;margin:6px 0 18px;opacity:.8}
+.price ul{list-style:none;display:grid;gap:8px;margin-bottom:26px;font-size:.95rem;flex:1}
+.price li::before{content:"● ";color:var(--coral)}
+.price.hot li::before{color:var(--sun)}
+.price .btn{justify-content:center}
+@media(max-width:900px){.prices{grid-template-columns:1fr}.price.hot{transform:none}}
+
+#reviews{background:#fff}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.review{background:var(--cream);border-radius:var(--radius);padding:28px 26px}
+.review .emo{font-size:2rem;margin-bottom:10px}
+.review h3{font-size:1.35rem;margin-bottom:8px}
+.review p{color:var(--muted)}
+@media(max-width:900px){.reviews{grid-template-columns:1fr}}
+
+.teachers{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+.teacher{background:#fff;border-radius:var(--radius);padding:26px 16px;text-align:center;box-shadow:var(--shadow)}
+.teacher .av{width:76px;height:76px;border-radius:50%;margin:0 auto 14px;display:grid;place-items:center;color:#fff;font-family:"Zen Maru Gothic",sans-serif;font-size:1.6rem;font-weight:900}
+.teacher h4{font-size:1.1rem}
+.teacher p{font-size:.88rem;color:var(--muted)}
+@media(max-width:900px){.teachers{grid-template-columns:repeat(2,1fr)}}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
+.stepc{background:#fff;border-radius:var(--radius);padding:26px 22px;box-shadow:var(--shadow);counter-increment:s}
+.stepc::before{content:counter(s);display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--coral);color:#fff;font-weight:900;margin-bottom:14px}
+.stepc h4{margin-bottom:4px}
+.stepc p{font-size:.92rem;color:var(--muted)}
+@media(max-width:900px){.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}}
+
+.faq{max-width:780px;margin:0 auto;display:grid;gap:12px}
+details{background:#fff;border-radius:18px;padding:18px 22px;box-shadow:0 6px 18px -12px rgba(30,36,64,.3)}
+summary{font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--coral)}
+details[open] summary::after{content:"−"}
+details p{margin-top:10px;color:var(--muted)}
+
+.final{background:var(--coral);color:#fff;border-radius:32px;padding:60px 32px;text-align:center;position:relative;overflow:hidden}
+.final::before,.final::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.12)}
+.final::before{width:260px;height:260px;top:-90px;left:-60px}
+.final::after{width:200px;height:200px;bottom:-80px;right:-40px}
+.final h2{font-size:clamp(1.8rem,4.5vw,2.8rem);margin-bottom:12px;position:relative}
+.final p{opacity:.92;margin-bottom:28px;position:relative}
+.final .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;position:relative}
+.final .btn-white{background:#fff;color:var(--coral)}
+footer{padding:44px 0 100px;text-align:center;color:var(--muted);font-size:.9rem}
+footer a{font-weight:700;color:var(--ink)}
+
+.sticky-cta{position:fixed;left:16px;right:16px;bottom:16px;z-index:60;display:none;gap:10px}
+.sticky-cta .btn{flex:1;justify-content:center;padding:14px 10px}
+@media(max-width:700px){.sticky-cta{display:flex}}
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .6s,transform .6s}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.bubble{animation:none}.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+/* ---------- polish layer ---------- */
+:root{
+  --cream:#FFF8F0; --ink:#1F2547; --muted:#62677F;
+  --border:rgba(31,37,71,.08);
+  --shadow:0 1px 2px rgba(31,37,71,.05),0 14px 34px -18px rgba(31,37,71,.28);
+  --shadow-lg:0 2px 4px rgba(31,37,71,.05),0 28px 60px -28px rgba(31,37,71,.35);
+}
+body{font-size:16.5px;letter-spacing:.015em}
+section{padding:104px 0}
+.sec-title{letter-spacing:.02em;margin-bottom:16px}
+.sec-sub{font-size:1.02rem;line-height:1.85}
+
+/* labels: soft pill with a dot instead of loud caps */
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:999px;padding:5px 14px 5px 12px;font-size:.74rem;letter-spacing:.16em;color:var(--ink);margin-bottom:18px}
+.eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--coral)}
+#courses .eyebrow,#reviews .eyebrow{background:var(--cream)}
+
+/* buttons */
+.btn{letter-spacing:.03em;padding:15px 28px;box-shadow:none}
+.btn .arr{display:inline-block;transition:transform .2s}
+.btn:hover .arr{transform:translateX(3px)}
+.btn-primary{box-shadow:0 8px 20px -10px rgba(255,94,58,.7)}
+.btn-line{box-shadow:0 8px 20px -10px rgba(6,199,85,.6)}
+.btn-ghost{border-width:1.5px}
+.btn-ghost:hover{background:var(--ink);color:#fff}
+
+/* header */
+header{background:rgba(255,248,240,.9);border-bottom-color:var(--border)}
+.logo{letter-spacing:.02em}
+.logo-mark{box-shadow:0 4px 12px -6px rgba(31,37,71,.5)}
+.nav-links a{position:relative;padding:4px 0}
+.nav-links a::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;border-radius:2px;background:var(--coral);transform:scaleX(0);transition:transform .2s}
+.nav-links a:hover::after{transform:scaleX(1)}
+
+/* hero: soft dot grid + gentler bubbles */
+.hero{padding:80px 0 104px;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:radial-gradient(rgba(31,37,71,.09) 1.2px,transparent 1.2px);background-size:24px 24px;-webkit-mask-image:linear-gradient(#000 60%,transparent);mask-image:linear-gradient(#000 60%,transparent)}
+.badge{border:1px solid var(--border);box-shadow:var(--shadow)}
+.hero p.lead{line-height:1.9}
+.bubble{border:4px solid #fff;box-shadow:var(--shadow-lg)}
+.b-center{border:6px solid #fff;box-shadow:var(--shadow-lg)}
+.trust span{background:#fff;border:1px solid var(--border);border-radius:999px;padding:5px 14px 5px 10px}
+
+/* promo strip */
+.promo{padding:16px 0;font-size:.95rem}
+.promo .wrap>span{position:relative}
+.promo .wrap>span+span::before{content:"";position:absolute;left:-15px;top:50%;width:4px;height:4px;margin-top:-2px;border-radius:50%;background:rgba(255,255,255,.35)}
+@media(max-width:700px){.promo .wrap>span+span::before{display:none}}
+
+/* cards: one consistent surface */
+.feat,.teacher,.stepc,.price,.sched-wrap,details,.review{border:1px solid var(--border);box-shadow:var(--shadow)}
+.feat{padding:30px 24px;transition:transform .2s,box-shadow .2s}
+.feat:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.feat h3{margin-bottom:8px}
+.price{box-shadow:var(--shadow)}
+.price.hot{box-shadow:var(--shadow-lg);border-color:transparent}
+.review{background:#fff}
+#reviews .review{background:var(--cream);box-shadow:none}
+
+/* wave dividers into white sections */
+#courses,#reviews{position:relative}
+#courses::before,#reviews::before{content:"";position:absolute;left:0;right:0;top:-38px;height:40px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40V22C120 6 240 0 360 8s240 26 360 26 240-20 360-26 240 0 360 14v-4 40z' fill='%23fff'/%3E%3C/svg%3E") center/100% 100% no-repeat}
+#courses::after,#reviews::after{content:"";position:absolute;left:0;right:0;bottom:-38px;height:40px;transform:scaleY(-1);background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40V22C120 6 240 0 360 8s240 26 360 26 240-20 360-26 240 0 360 14v-4 40z' fill='%23fff'/%3E%3C/svg%3E") center/100% 100% no-repeat;z-index:1}
+
+/* courses */
+.tab{border-width:1.5px;padding:10px 22px;transition:background .2s,color .2s}
+.tab:hover{background:var(--cream)}
+.tab.active:hover{background:var(--ink)}
+.panel-head h3{letter-spacing:.02em}
+.info-card{box-shadow:var(--shadow-lg);padding:26px 26px}
+.info-card li{line-height:1.6}
+.level{border:1px solid var(--border)}
+.note{border:1px dashed rgba(31,37,71,.15);background:#fff}
+.chip{background:#fff;border:1px solid var(--border)}
+
+/* schedule */
+.sched-wrap{border-radius:24px}
+th{font-size:.88rem;letter-spacing:.06em;padding:18px}
+tbody tr{transition:background .15s}
+tbody tr:hover{background:#FFFBF5}
+.slot{border:1px solid rgba(23,138,121,.15)}
+.slot.two{border-color:rgba(184,55,26,.18)}
+
+/* pricing */
+.price{padding:36px 30px}
+.price ul{gap:10px}
+.price li{display:flex;gap:10px;align-items:baseline}
+.price li::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--coral);transform:translateY(-2px)}
+.price.hot li::before{background:var(--sun)}
+
+/* teachers */
+.teacher .av{box-shadow:0 0 0 5px #fff,0 0 0 6px var(--border)}
+
+/* steps: connect them */
+.stepc{position:relative}
+@media(min-width:901px){.stepc:not(:last-child)::after{content:"";position:absolute;top:46px;right:-14px;width:10px;height:10px;border-top:2px solid var(--coral);border-right:2px solid var(--coral);transform:rotate(45deg);opacity:.5}}
+
+/* faq */
+details{transition:box-shadow .2s}
+details[open]{box-shadow:var(--shadow-lg)}
+summary{padding:2px 0}
+
+/* final CTA */
+.final{border-radius:36px;background:linear-gradient(135deg,#FF6A47,#FF5E3A 55%,#F2472A);box-shadow:0 30px 60px -30px rgba(255,94,58,.7)}
+.final .btn-white{box-shadow:0 10px 24px -12px rgba(0,0,0,.35)}
+
+/* footer */
+footer.site-foot{padding:0;text-align:left;margin-top:40px;border-top:1px solid var(--border);background:#fff}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;padding:56px 20px 40px}
+.foot-grid h4{font-size:.95rem;color:var(--ink);margin-bottom:12px}
+.foot-grid p,.foot-grid li{color:var(--muted);font-size:.92rem;line-height:1.9}
+.foot-grid ul{list-style:none}
+.foot-grid a{color:var(--ink);font-weight:500}
+.foot-grid a:hover{color:var(--coral)}
+.foot-brand .logo{margin-bottom:12px}
+.foot-bottom{border-top:1px solid var(--border);padding:18px 20px 22px;font-size:.84rem;color:var(--muted)}
+@media(max-width:800px){.foot-grid{grid-template-columns:1fr;gap:28px}.foot-bottom{padding-bottom:104px}}
+
+/* mobile sticky bar */
+.sticky-cta{background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border:1px solid var(--border);border-radius:999px;padding:6px;left:12px;right:12px;bottom:12px;box-shadow:var(--shadow-lg)}
+.sticky-cta .btn{padding:12px 8px;font-size:.95rem}
+@media(max-width:700px){section{padding:84px 0}}
+/* Mandarin tiers */
+.zh-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.zh-tier{position:relative;background:#fff;border:1px solid var(--border);border-bottom:4px solid var(--c);border-radius:20px;padding:30px 22px 22px;box-shadow:var(--shadow)}
+.zh-name{position:absolute;top:-13px;left:20px;background:var(--c);color:#fff;font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;border-radius:999px;padding:4px 14px}
+.zh-price{font-family:"Zen Maru Gothic",sans-serif;font-size:2.2rem;font-weight:900;line-height:1;margin-bottom:10px}
+.zh-price small{font-size:.95rem;font-weight:700;margin:0 2px}
+.zh-tier p{color:var(--ink);font-weight:700;font-size:.98rem;line-height:1.6}
+.zh-tier p span{color:var(--muted);font-weight:500;font-size:.88rem}
+.zh-tier.best::after{content:"最划算";position:absolute;top:-13px;right:18px;background:var(--ink);color:#fff;font-size:.75rem;font-weight:700;border-radius:999px;padding:4px 12px}
+.zh-band{margin-top:40px;background:#fff;border:1px solid var(--border);border-radius:24px;padding:28px 30px;box-shadow:var(--shadow);display:grid;grid-template-columns:1fr 2fr;gap:24px;align-items:center}
+.zh-band h3{font-size:1.3rem;margin-bottom:4px}
+.zh-band > div > p{color:var(--muted);font-size:.92rem}
+.zh-band .zh-tiers{gap:12px}
+.zh-band .zh-tier{padding:24px 18px 16px;box-shadow:none}
+.zh-band .zh-price{font-size:1.8rem}
+@media(max-width:900px){.zh-band{grid-template-columns:1fr}}
+@media(max-width:700px){.zh-tiers{grid-template-columns:1fr;gap:22px}}
+.nb{display:inline-block}
+.sec-title,.final h2,.panel-head h3{text-wrap:balance}
+.price .tag.tag-save{background:var(--coral);color:#fff}
+.per.save{opacity:1;color:var(--muted)}
+.per.save b{color:var(--coral-d)}
+.st-new{background:#FFE6DF;color:#B8371A}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo">
+      <span class="logo-mark"><span style="background:var(--coral)">中</span><span style="background:var(--sky)">英</span><span style="background:var(--sakura)">日</span><span style="background:var(--mint)">韓</span></span>
+      Awesome Language
+    </a>
+    <nav class="nav-links">
+      <a href="#courses">課程</a><a href="#schedule">課表</a><a href="#pricing">價格</a><a href="#reviews">學生回饋</a><a href="#faq">常見問題</a>
+    </nav>
+    <a class="btn btn-primary" href="https://forms.gle/EdKFTxjU4anprFfM9" target="_blank" rel="noopener">立即報名</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <div class="badge"><b>NEW</b> 日文一對一課程開課囉！</div>
+      <h1>下一趟旅行，<br>用<span class="hl">當地語言</span>開口說</h1>
+      <p class="lead">中文・英文・日文・韓文線上課程。小班互動＋一對一客製，零基礎也能從第一堂課開始說。上課有趣、出國真的用得上！</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="https://forms.gle/EdKFTxjU4anprFfM9" target="_blank" rel="noopener">填寫報名表單<span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn btn-line" href="https://lin.ee/f2kPtJO" target="_blank" rel="noopener">LINE 問小編</a>
+      </div>
+      <div class="trust">
+        <span><i>✓</i>Zoom 線上上課</span>
+        <span><i>✓</i>每堂錄影保留一個月</span>
+        <span><i>✓</i>團體班可隨時插班</span>
+      </div>
+    </div>
+    <div class="bubbles reveal" aria-hidden="true">
+      <div class="bubble b1"><div class="big">你好</div><small>中文</small></div>
+      <div class="bubble b2"><div class="big">Hello</div><small>English</small></div>
+      <div class="bubble b3"><div class="big">こんにちは</div><small>日本語</small></div>
+      <div class="bubble b4"><div class="big">안녕하세요</div><small>한국어</small></div>
+      <div class="b-center"><div><em>4</em>種語言<br>一次學到位</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="promo">
+  <div class="wrap">
+    <span>🎉 韓文團體班 8 堂 <b>早鳥價 NT$3,420</b></span>
+    <span>⏰ 本期早鳥 <b>12/15</b> 截止</span>
+    <span>➕ 初級班可插班・發音班 1 月開班</span>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">WHY US</span>
+      <h2 class="sec-title"><span class="nb">為什麼學生</span><span class="nb">一上就停不下來？</span></h2>
+      <p class="sec-sub">不是死背單字，而是讓你真的敢開口。學生最常說的兩句話：「上課好好玩」、「出國旅遊真的用到了！」</p>
+    </div>
+    <div class="features">
+      <div class="feat reveal"><div class="ico" style="background:#FFE6DF">🗣️</div><h3>大量開口練習</h3><p>課堂以對話與情境練習為主，文法打穩基礎，說出口更有自信。</p></div>
+      <div class="feat reveal"><div class="ico" style="background:#E2EAFF">🎥</div><h3>錄影複習一個月</h3><p>每堂課都錄影，保留一個月。臨時有事沒上到，也能看錄影補回來。</p></div>
+      <div class="feat reveal"><div class="ico" style="background:#E2F7F3">💻</div><h3>在家就能上</h3><p>全程 Zoom 線上授課，不用通勤，台灣各地、海外都能一起上課。</p></div>
+      <div class="feat reveal"><div class="ico" style="background:#FFF3D1">🧭</div><h3>分級清楚好銜接</h3><p>從發音到初級一路銜接，中高級改一對一，學到哪都有下一步。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="courses">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">COURSES</span>
+      <h2 class="sec-title"><span class="nb">選一個語言，</span><span class="nb">開始你的旅程</span></h2>
+      <p class="sec-sub">點選下方語言看詳細課程。不確定自己的程度？私訊小編，我們幫你安排最適合的班級。</p>
+    </div>
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="ko"><span class="dot" style="background:var(--mint)"></span>韓文</button>
+      <button class="tab" data-tab="ja"><span class="dot" style="background:var(--sakura)"></span>日文 <span class="new">NEW</span></button>
+      <button class="tab" data-tab="en"><span class="dot" style="background:var(--sky)"></span>英文</button>
+      <button class="tab" data-tab="zh"><span class="dot" style="background:var(--coral)"></span>中文</button>
+    </div>
+
+    <div class="panel active" id="ko">
+      <div class="panel-head">
+        <div>
+          <h3>韓文｜從 40 音到初級，一路陪你學</h3>
+          <p>零基礎從發音班開始，學會 40 音後銜接初級 1A～2B。使用首爾大學韓國語教材（舊版），系統化學習聽說讀寫。中高級（3A 以上）採一對一教學。</p>
+          <div class="teachers-inline">
+            <span class="chip"><span class="av" style="background:var(--coral)">B</span>Bess 老師</span>
+            <span class="chip"><span class="av" style="background:var(--mint)">邦</span>邦邦老師</span>
+            <span class="chip"><span class="av" style="background:var(--sky)">W</span>Wonnie 老師</span>
+          </div>
+        </div>
+        <div class="info-card" style="background:var(--mint)">
+          <ul>
+            <li>團體班 8 堂 NT$3,600</li>
+            <li>早鳥價 NT$3,420（本期 12/15 截止）</li>
+            <li>一期兩個月，初級班可中途插班</li>
+            <li>零基礎發音班 1 月開班</li>
+            <li>不知道程度？可先做分級測驗</li>
+          </ul>
+        </div>
+      </div>
+      <div class="levels">
+        <div class="level"><div class="step">STEP 1</div><h4>發音班</h4><p>零基礎・40 音・1 月開班</p></div>
+        <div class="level"><div class="step">STEP 2</div><h4>初級 1A</h4><p>黃色課本</p></div>
+        <div class="level"><div class="step">STEP 3</div><h4>初級 1B</h4><p>生活會話</p></div>
+        <div class="level"><div class="step">STEP 4</div><h4>初級 2A</h4><p>進階句型</p></div>
+        <div class="level"><div class="step">STEP 5</div><h4>初級 2B</h4><p>完成初級</p></div>
+      </div>
+      <div class="note">3A 以上的中高級學生，目前採一對一授課，歡迎私訊小編安排。</div>
+    </div>
+
+    <div class="panel" id="ja">
+      <div class="panel-head">
+        <div>
+          <h3>日文一對一｜為你量身打造的日文課</h3>
+          <p>想去日本自由行、追番不看字幕，還是準備檢定？一對一課程依你的目標和程度設計，零基礎也歡迎。老師全程陪你開口練習，進步看得見。</p>
+          <div class="teachers-inline">
+            <span class="chip"><span class="av" style="background:var(--sakura)">B</span>Bea 老師</span>
+          </div>
+        </div>
+        <div class="info-card" style="background:var(--sakura)">
+          <ul>
+            <li>10 堂套票 NT$9,000，每堂只要 NT$900</li>
+            <li>比單堂 NT$1,200 省下 NT$3,000</li>
+            <li>零基礎可以上</li>
+            <li>私訊小編約固定時段</li>
+          </ul>
+        </div>
+      </div>
+      <div class="jp-hero">
+        <div class="jp-card"><div class="k">✈️</div><h4>旅遊日文</h4><p>點餐、問路、購物，去日本不再只會比手畫腳。</p></div>
+        <div class="jp-card"><div class="k">🌸</div><h4>從五十音開始</h4><p>完全沒學過也沒關係，從平假名、片假名一步步來。</p></div>
+        <div class="jp-card"><div class="k">🎯</div><h4>目標導向</h4><p>依你的需求調整內容與進度，學你真正想學的。</p></div>
+      </div>
+    </div>
+
+    <div class="panel" id="en">
+      <div class="panel-head">
+        <div>
+          <h3>英文一對一｜會話、文法、考試都能客製</h3>
+          <p>一對一上課，口說練習量最大化，同時把文法打好基礎。需要準備考試？也可以依考試內容量身規劃。</p>
+          <div class="teachers-inline">
+            <span class="chip"><span class="av" style="background:var(--sky)">B</span>Bess 老師</span>
+            <span class="chip"><span class="av" style="background:var(--coral)">西</span>小西老師</span>
+          </div>
+        </div>
+        <div class="info-card" style="background:var(--sky)">
+          <ul>
+            <li>10 堂套票 NT$9,000，每堂只要 NT$900</li>
+            <li>比單堂 NT$1,200 省下 NT$3,000</li>
+            <li>可針對考試準備</li>
+            <li>私訊小編約固定時段</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" id="zh">
+      <div class="panel-head">
+        <div>
+          <h3>中文一對一｜Learn Mandarin 1-on-1</h3>
+          <p>想學中文，或幫外國朋友找中文老師？一對一課程依程度與目標安排，每週上得越多，每小時越划算。<br>Learn Mandarin one-on-one with a teacher who plans each lesson around your level and goals. The more hours you book each week, the lower the hourly rate.</p>
+          <div class="teachers-inline">
+            <span class="chip"><span class="av" style="background:var(--coral)">B</span>Bess 老師</span>
+          </div>
+        </div>
+        <div class="info-card" style="background:var(--coral)">
+          <ul>
+            <li>線上 Zoom 授課 · Online via Zoom</li>
+            <li>依程度安排 · Any level</li>
+            <li>每週 1–10 小時 · 1–10 hrs/week</li>
+            <li>LINE 私訊小編約時間</li>
+          </ul>
+        </div>
+      </div>
+      <div class="zh-tiers">
+        <div class="zh-tier" style="--c:#D07B66"><span class="zh-name">Standard</span><div class="zh-price"><small>NT$</small>1,200<small>/hr</small></div><p>每週 1–3 小時<br><span>1–3 hours per week</span></p></div>
+        <div class="zh-tier" style="--c:#8FB0AE"><span class="zh-name">Premium</span><div class="zh-price"><small>NT$</small>1,000<small>/hr</small></div><p>每週 4–6 小時<br><span>4–6 hours per week</span></p></div>
+        <div class="zh-tier best" style="--c:#E3B160"><span class="zh-name">Gold</span><div class="zh-price"><small>NT$</small>800<small>/hr</small></div><p>每週 7–10 小時<br><span>7–10 hours per week</span></p></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="schedule">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">SCHEDULE</span>
+      <h2 class="sec-title"><span class="nb">11–12 月</span><span class="nb">韓文課表</span></h2>
+      <p class="sec-sub">初級班現在可以插班，零基礎發音班 1 月開班、現正報名中！同一級有好幾個時段，挑一個你方便的就好；一對一課程時間彈性，跟小編約好固定時段即可。</p>
+    </div>
+    <div class="sched-wrap reveal">
+      <div class="sched-scroll">
+        <table>
+          <thead><tr><th>課程</th><th>可選時段（任選一個）</th><th>狀態</th></tr></thead>
+          <tbody>
+            <tr><td><span class="lang" style="background:var(--mint)">韓</span><b>發音班</b><br><small class="sub">零基礎・從 40 音開始・1 月開班</small></td><td><div class="slots"><span class="slot">週一 18:30–19:30・Bess</span></div></td><td><span class="status st-new">1 月開班</span></td></tr>
+            <tr><td><span class="lang" style="background:var(--mint)">韓</span><b>初級 1A</b><br><small class="sub">黃色課本・時段最多</small></td><td><div class="slots"><span class="slot">週一 19:50–20:50・Bess</span><span class="slot">週一 21:00–22:00・Bess</span><span class="slot">週二 09:35–10:35・Bess</span><span class="slot">週三 10:30–11:30・Bess</span><span class="slot">週四 21:05–22:05・Wonnie</span><span class="slot">週五 19:30–20:30・邦邦</span><span class="slot">週六 09:15–10:15・Bess</span></div></td><td><span class="status st-open">可插班</span></td></tr>
+            <tr><td><span class="lang" style="background:var(--mint)">韓</span><b>初級 1B</b></td><td><div class="slots"><span class="slot two">週二 19:30–20:50 ＋ 週日 21:00–22:00・Bess<em>一週兩次・進步更快</em></span><span class="slot">週五 20:30–21:30・邦邦</span></div></td><td><span class="status st-open">可插班</span></td></tr>
+            <tr><td><span class="lang" style="background:var(--mint)">韓</span><b>初級 2A</b></td><td><div class="slots"><span class="slot">週三 19:15–20:15・Bess</span><span class="slot">週三 20:20–21:50・Bess</span></div></td><td><span class="status st-open">可插班</span></td></tr>
+            <tr><td><span class="lang" style="background:var(--mint)">韓</span><b>初級 2B</b></td><td><div class="slots"><span class="slot">週二 21:00–22:00・Bess</span></div></td><td><span class="status st-open">可插班</span></td></tr>
+            <tr><td><span class="lang" style="background:var(--mint)">韓</span><b>中高級一對一</b></td><td>依你的時間安排</td><td><span class="status st-flex">私訊約時間</span></td></tr>
+            <tr><td><span class="lang" style="background:var(--sakura)">日</span><b>日文一對一</b></td><td>依你的時間安排・Bea</td><td><span class="status st-flex">私訊約時間</span></td></tr>
+            <tr><td><span class="lang" style="background:var(--sky)">英</span><b>英文一對一</b></td><td>依你的時間安排・Bess／小西</td><td><span class="status st-flex">私訊約時間</span></td></tr>
+            <tr><td><span class="lang" style="background:var(--coral)">中</span><b>中文一對一</b><br><small class="sub">Mandarin 1-on-1</small></td><td>依你的時間安排・Bess・每週 1–10 小時</td><td><span class="status st-flex">私訊約時間</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sched-foot">所有課程皆在 Zoom 上課，每堂錄影保留一個月，錯過也能補課。</div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">PRICING</span>
+      <h2 class="sec-title"><span class="nb">價格透明，</span><span class="nb">報名簡單</span></h2>
+      <p class="sec-sub">小班一起學比較有伴，一對一進步最快。繳費資訊都在報名表單裡，填完我們會盡快聯絡你！</p>
+    </div>
+    <div class="prices">
+      <div class="price reveal">
+        <h3>韓文團體班</h3>
+        <div class="for">一期 8 堂・兩個月</div>
+        <div class="amount"><small>NT$</small>3,600</div>
+        <div class="per">平均每堂 NT$450</div>
+        <ul><li>發音班～初級 2B</li><li>可中途插班</li><li>錄影保留一個月</li></ul>
+        <a class="btn btn-ghost" href="https://forms.gle/EdKFTxjU4anprFfM9" target="_blank" rel="noopener">我要報名</a>
+      </div>
+      <div class="price hot reveal">
+        <span class="tag">最划算</span>
+        <h3>韓文團體班・早鳥</h3>
+        <div class="for">本期 12/15 前報名</div>
+        <div class="amount"><small>NT$</small>3,420</div>
+        <div class="was">原價 NT$3,600</div>
+        <ul><li>一堂不到 430 元</li><li>同樣 8 堂完整課程</li><li>可中途插班</li></ul>
+        <a class="btn btn-primary" href="https://forms.gle/EdKFTxjU4anprFfM9" target="_blank" rel="noopener">搶早鳥名額</a>
+      </div>
+      <div class="price reveal">
+        <span class="tag tag-save">10 堂套票 75 折</span>
+        <h3>一對一（日文／英文）</h3>
+        <div class="for">每堂 1 小時・買 10 堂最划算</div>
+        <div class="amount"><small>NT$</small>900<small> /堂</small></div>
+        <div class="was">原價 NT$1,200 /堂</div>
+        <div class="per save">10 堂只要 NT$9,000，<b>現省 NT$3,000</b></div>
+        <ul><li>零基礎歡迎</li><li>可針對考試、旅遊客製</li><li>固定時段，進度穩定</li></ul>
+        <a class="btn btn-ghost" href="https://forms.gle/EdKFTxjU4anprFfM9" target="_blank" rel="noopener">報名一對一</a>
+      </div>
+    </div>
+<div class="zh-band reveal">
+      <div>
+        <h3>中文一對一 Mandarin</h3>
+        <p>每週上越多，每小時越划算。<br>Book more hours, pay less per hour.</p>
+        <a class="btn btn-ghost" style="margin-top:14px;padding:11px 22px" href="https://lin.ee/f2kPtJO" target="_blank" rel="noopener">LINE 詢問中文課</a>
+      </div>
+      <div class="zh-tiers">
+        <div class="zh-tier" style="--c:#D07B66"><span class="zh-name">Standard</span><div class="zh-price"><small>NT$</small>1,200<small>/hr</small></div><p>每週 1–3 小時</p></div>
+        <div class="zh-tier" style="--c:#8FB0AE"><span class="zh-name">Premium</span><div class="zh-price"><small>NT$</small>1,000<small>/hr</small></div><p>每週 4–6 小時</p></div>
+        <div class="zh-tier best" style="--c:#E3B160"><span class="zh-name">Gold</span><div class="zh-price"><small>NT$</small>800<small>/hr</small></div><p>每週 7–10 小時</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">STUDENTS</span>
+      <h2 class="sec-title"><span class="nb">學生最常</span><span class="nb">跟我們說…</span></h2>
+      <p class="sec-sub">整理自學生上課後的回饋</p>
+    </div>
+    <div class="reviews">
+      <div class="review reveal"><div class="emo">😆</div><h3>「上課好好玩！」</h3><p>對話和情境練習多，課堂氣氛輕鬆，一堂課很快就過去。</p></div>
+      <div class="review reveal"><div class="emo">✈️</div><h3>「出國真的用到了！」</h3><p>課堂上練過的句子，旅行時真的派上用場。</p></div>
+      <div class="review reveal"><div class="emo">🗣️</div><h3>「開口多、文法紮實」</h3><p>一對一學生的共同回饋：說得多，也打好了文法基礎。</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">TEACHERS</span>
+      <h2 class="sec-title"><span class="nb">陪你一起學的</span><span class="nb">老師們</span></h2>
+      <p class="sec-sub">有耐心、有熱情，讓每一堂課都有收穫。</p>
+    </div>
+    <div class="teachers">
+      <div class="teacher reveal"><div class="av" style="background:var(--coral)">B</div><h4>Bess</h4><p>中文・英文・韓文老師</p></div>
+      <div class="teacher reveal"><div class="av" style="background:var(--mint)">邦</div><h4>邦邦</h4><p>韓文老師</p></div>
+      <div class="teacher reveal"><div class="av" style="background:#18A08D">W</div><h4>Wonnie</h4><p>韓文老師</p></div>
+      <div class="teacher reveal"><div class="av" style="background:var(--sakura)">B</div><h4>Bea</h4><p>日文老師</p></div>
+      <div class="teacher reveal"><div class="av" style="background:var(--sky)">西</div><h4>小西</h4><p>英文老師</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">HOW IT WORKS</span>
+      <h2 class="sec-title"><span class="nb">4 步驟，</span><span class="nb">下週就能開始上課</span></h2>
+    </div>
+    <div class="steps">
+      <div class="stepc reveal"><h4>填寫報名表單</h4><p>選好想學的語言和時段，繳費資訊都在表單裡。</p></div>
+      <div class="stepc reveal"><h4>小編聯絡你</h4><p>確認班級和時間。韓文不確定程度，可以先做分級測驗。</p></div>
+      <div class="stepc reveal"><h4>完成繳費</h4><p>團體班把握 12/15 前的早鳥優惠。</p></div>
+      <div class="stepc reveal"><h4>Zoom 開始上課</h4><p>準時上線，錯過也有錄影可以複習。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2 class="sec-title">常見問題</h2>
+    </div>
+    <div class="faq">
+      <details><summary>完全沒學過，可以報名嗎？</summary><p>當然可以！韓文零基礎發音班 1 月開班，從 40 音開始，現在就能報名；日文和英文一對一也歡迎完全沒有基礎的學生。</p></details>
+      <details><summary>團體班已經開課了，還能加入嗎？</summary><p>可以插班！每期兩個月，中途加入的話私訊小編，我們會說明費用和進度安排。</p></details>
+      <details><summary>臨時有事沒辦法上課怎麼辦？</summary><p>每堂課都有錄影，保留一個月，可以看錄影把進度補回來。</p></details>
+      <details><summary>有免費試聽課嗎？</summary><p>目前沒有提供試聽課，但歡迎先私訊小編聊聊你的程度和需求，我們會幫你找到最適合的課程。</p></details>
+      <details><summary>不知道自己的韓文程度要上哪一班？</summary><p>私訊小編，我們提供韓文分級測驗，幫你找到適合的班級。</p></details>
+      <details><summary>一對一怎麼約時間？</summary><p>填表或私訊時告訴我們你方便的時間，建議每週固定時段上課，學習效果最好。</p></details>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:20px">
+  <div class="wrap">
+    <div class="final reveal">
+      <h2>今天就踏出第一步 ✨</h2>
+      <p>本期早鳥 12/15 截止，1 月新班報名中。填好表單，小編幫你挑最適合的時段！</p>
+      <div class="row">
+        <a class="btn btn-white" href="https://forms.gle/EdKFTxjU4anprFfM9" target="_blank" rel="noopener">填寫報名表單<span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn btn-line" href="https://lin.ee/f2kPtJO" target="_blank" rel="noopener">LINE 問小編</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a href="#top" class="logo">
+        <span class="logo-mark"><span style="background:var(--coral)">中</span><span style="background:var(--sky)">英</span><span style="background:var(--sakura)">日</span><span style="background:var(--mint)">韓</span></span>
+        Awesome Language
+      </a>
+      <p>中英日韓語言教學。Zoom 線上小班與一對一，零基礎也能開口說。</p>
+    </div>
+    <div>
+      <h4>課程</h4>
+      <ul>
+        <li><a href="#courses">韓文團體班</a></li>
+        <li><a href="#courses">日文・英文一對一</a></li>
+        <li><a href="#courses">中文一對一 Mandarin</a></li>
+        <li><a href="#schedule">11–12 月課表</a></li>
+        <li><a href="#pricing">價格</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>聯絡我們</h4>
+      <ul>
+        <li><a href="https://forms.gle/EdKFTxjU4anprFfM9" target="_blank" rel="noopener">報名表單</a></li>
+        <li><a href="https://lin.ee/f2kPtJO" target="_blank" rel="noopener">LINE 官方帳號</a></li>
+        <li><a href="https://www.instagram.com/awesome_language_institution/" target="_blank" rel="noopener">Instagram @awesome_language_institution</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">© Awesome language institution｜中英日韓語言教學</div>
+</footer>
+
+<div class="sticky-cta">
+  <a class="btn btn-line" href="https://lin.ee/f2kPtJO" target="_blank" rel="noopener">LINE 問小編</a>
+  <a class="btn btn-primary" href="https://forms.gle/EdKFTxjU4anprFfM9" target="_blank" rel="noopener">報名課程</a>
+</div>
+
+<script>
+document.querySelectorAll('.tab').forEach(function(t){
+  t.addEventListener('click',function(){
+    document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active')});
+    document.querySelectorAll('.panel').forEach(function(x){x.classList.remove('active')});
+    t.classList.add('active');
+    document.getElementById(t.dataset.tab).classList.add('active');
+  });
+});
+if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+}else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')});}
+</script>
+</body>
+</html>
